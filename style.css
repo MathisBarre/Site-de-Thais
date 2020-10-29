@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "minecraft_texte";
+  src: url("font/minecraft_texte.ttf");
+}
+@font-face {
+  font-family: "minecraft_titre_normal";
+  src: url("font/minecraft_titre_normal.ttf");
+}
+@font-face {
+  font-family: "minecraft_titre_casse";
+  src: url("font/minecraft_titre_casse.ttf");
+}
+:root {
+  font-size: 120%;
+}
+html {
+  min-height: 100vh;
+}
+body {
+  min-height: 100%;
+  background-size: 10%;
+}
+
+/* -----------> Toutes les classes disponibles <----------- */
+
+p{
+  font-family: "minecraft_texte";
+}
+
+.couleur-blanc {
+  color: white;
+}
+
+.fond-obsidienne {
+  background-image: url("./images/minecraft_texture_obsidianne.png");
+}
+
+.fond-terre {
+  background-image: url("./images/minecraft_texture_terre.jpg");
+}
+
+.titre {
+  font-family: "minecraft_titre_normal";
+}
+
+.titre-casse {
+  font-family: "minecraft_titre_casse";
+}
+
+.center {
+  text-align: center;
+}
+
+.hauteur300px {
+  height: 300px;
+}
